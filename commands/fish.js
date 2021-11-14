@@ -5,7 +5,7 @@ exports.execute = async (client, message, args) => {
         "cod",
         "Mackerel"
     ];
-    let amount = Math.floor(Math.random() * 80) + 50;
+    let amount = Math.floor(Math.random() * 200) + 100;
     let beg = client.eco.beg(client.ecoAddUser, amount, { canLose: true });
     if (beg.onCooldown) return message.reply(`you have already fished! Come back after ${beg.time.seconds} seconds.`);
     if (beg.lost) return message.channel.send(`**${users[Math.floor(Math.random() * users.length)]}:** taunted you and swam away LMAO! Try again later.`);

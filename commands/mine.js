@@ -5,7 +5,7 @@ exports.execute = async (client, message, args) => {
         "diamonds",
         "rubys"
     ];
-    let amount = Math.floor(Math.random() * 80) + 50;
+    let amount = Math.floor(Math.random() * 200) + 100;
     let beg = client.eco.beg(client.ecoAddUser, amount, { canLose: true });
     if (beg.onCooldown) return message.reply(`you have already mined! Come back after ${beg.time.seconds} seconds.`);
     if (beg.lost) return message.channel.send(`**${users[Math.floor(Math.random() * users.length)]}:** went into your bag but you relised there was a hole LMAO! Try again later.`);
