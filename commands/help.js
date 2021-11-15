@@ -3,8 +3,8 @@ const { MessageEmbed } = require("discord.js");
 exports.execute = async (client, message, args) => {
     const embed = new MessageEmbed()
         .setAuthor("Commands")
-        .setTitle("Make Sure To Check Out This Channel")
-        .setURL("https://www.youtube.com/channel/UC9nxFsgQM31-x5erAv0gHFA")
+        .setTitle("Make Sure To Join the community server")
+        .setURL("https://discord.gg/Hw7z9dYfVR")
         .setDescription(`Total Commands: ${client.commands.size}`)
         .setColor("BLURPLE")
         .setTimestamp()
