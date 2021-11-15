@@ -12,7 +12,7 @@ exports.execute = async (client, message, args) => {
   .setTitle("Store")
   .setDescription(content)
   .setColor("BLURPLE")
-  .setFooter("Do :?buy <item> to purchase the item.")
+  .setFooter("Do k!buy <item> to purchase the item.")
   return message.channel.send(embed);
 };
 
