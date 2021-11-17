@@ -1,6 +1,6 @@
 module.exports = {
-    token: "OTA5MzI1NTY4MzkzMjMyNDg0.YZCpbQ.POaPgER5xWECXa4gHkeXTNJJwI4",
-    prefix: "k!",
+    token: "",
+    prefix: "",
     admins: [
         "889380477226614806"
 ],
