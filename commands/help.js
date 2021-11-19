@@ -3,8 +3,8 @@ const { MessageEmbed } = require("discord.js");
 exports.execute = async (client, message, args) => {
     const embed = new MessageEmbed()
         .setAuthor("Commands")
-        .setTitle("Make Sure To Join the community server")
-        .setURL("https://discord.gg/Hw7z9dYfVR")
+        .setTitle("Make sure to vote for me")
+        .setURL("https://top.gg/bot/911376535129325619/vote")
         .setDescription(`Total Commands: ${client.commands.size}`)
         .setColor("BLURPLE")
         .setTimestamp()
