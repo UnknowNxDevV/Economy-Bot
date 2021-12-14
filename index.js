@@ -10,8 +10,8 @@ client.shop = {
   laptop: {
     cost: 5000
   },
-  mobile: {
-    cost: 1000
+  krown: {
+    cost: 100000000
   },
   pc: {
     cost: 10000
