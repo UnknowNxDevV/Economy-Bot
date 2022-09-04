@@ -7,6 +7,9 @@ module.exports.execute = async (client, message, args) => {
 
 module.exports.help = {
     name: "daily",
-    aliases: [],
+    aliases: ["daily"],
     usage: "daily"
 }
+
+
+//coded By Unknown

@@ -14,6 +14,9 @@ exports.execute = async (client, message, args) => {
 
 exports.help = {
     name: "beg",
-    aliases: [],
+    aliases: ["beg"],
     usage: "beg"
 }
+
+
+//coded By Unknown

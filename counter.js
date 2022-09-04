@@ -28,3 +28,5 @@ function counter(message, client) {
 }
 
 module.exports = counter;
+
+//coded By Unknown

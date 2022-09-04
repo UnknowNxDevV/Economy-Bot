@@ -19,3 +19,5 @@ exports.help = {
     aliases: ["pong", "latency"],
     usage: `ping`
 }
+
+//coded By Unknown
