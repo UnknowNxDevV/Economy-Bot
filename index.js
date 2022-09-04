@@ -41,7 +41,7 @@ fs.readdir("./commands/", (err, files) => {
     });
 });
 
-//Coded By Unknown
+//Coded By Unknown Dev
 
 
 client.login("");
